@@ -566,49 +566,6 @@ body.light hr.separator {
   font-weight: 600;
 }
 
-/* Box Stats */
-
-.about .box-stats {
-  padding: 20px 30px 25px 40px;
-  border-radius: 5px;
-  border: 1px solid #252525;
-}
-
-.about .box-stats.with-margin {
-  margin-bottom: 30px;
-}
-
-.about .box-stats h3 {
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.about .box-stats h3:after {
-  content: "+";
-  position: absolute;
-  right: -24px;
-  font-size: 33px;
-  font-weight: 300;
-  top: 2px;
-}
-
-.about .box-stats p {
-  padding-left: 45px;
-}
-
-.about .box-stats p:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 13px;
-  width: 30px;
-  height: 1px;
-  background: #777;
-}
-
 /* Resume */
 
 .about .resume-box ul {
@@ -686,6 +643,24 @@ body.light hr.separator {
   left: 7px;
   top: 9px;
   opacity: 0.8;
+}
+
+.imgCerts {
+  width: 300px;
+  user-select: none;
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+.certIcon {
+  width: 25px;
+  user-select: none;
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  -webkit-user-select: none;
+  pointer-events: none;
 }
 
 /* Skills */
@@ -1087,121 +1062,6 @@ body.light hr.separator {
   font-family: FontAwesome;
   content: "\f071";
   padding-right: 10px;
-}
-
-/*** Blog ***/
-
-.blog .main-content {
-  padding-bottom: 85px;
-}
-
-/* Latest Posts */
-
-.blog .post-container {
-  display: block;
-}
-
-.blog .post-content {
-  background-color: #252525;
-  padding: 20px 25px 25px 25px;
-  border-radius: 0 0 5px 5px;
-}
-
-.blog .post-content .entry-header h3 {
-  line-height: 26px;
-  cursor: pointer;
-}
-
-.blog .post-content .entry-header h3 a {
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.blog .post-thumb {
-  border-radius: 5px 5px 0 0;
-  cursor: pointer;
-}
-
-.blog .post-thumb a {
-  border-radius: 5px 5px 0 0;
-}
-
-.blog .post-container:hover img {
-  transform: scale(1.2);
-}
-
-.blog .post-thumb a img {
-  border-radius: 5px 5px 0 0;
-  transition: 0.3s;
-}
-
-.blog .post-content .entry-content p {
-  margin: 15px 0 5px;
-}
-
-.blog .post-content .entry-header h3 a {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-/* pagination */
-
-.blog .pagination {
-  margin-bottom: 30px;
-}
-
-.blog .page-link {
-  color: #fff;
-  background-color: #252525;
-  border: 1px solid #252525;
-  padding: 0;
-  margin: 0 10px;
-  border-radius: 50% !important;
-  width: 43px;
-  height: 43px;
-  line-height: 43px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.blog .page-link:focus,
-.blog .page-link:active {
-  box-shadow: none !important;
-}
-
-.blog .page-link:hover {
-  color: #fff !important;
-}
-
-/* Blog Post */
-
-.blog-post article {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.blog-post article h1 {
-  font-weight: 600;
-  margin: 13px 0 20px;
-}
-
-.blog-post article img {
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.blog-post .meta {
-  color: #eee;
-  font-size: 13px;
-}
-
-.blog-post .meta span {
-  padding-right: 15px;
-}
-
-.blog-post .meta i {
-  padding-right: 3px;
 }
 
 /* [ RESPONSIVE DESIGN STYLES ] */
