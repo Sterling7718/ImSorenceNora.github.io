@@ -652,6 +652,7 @@ body.light hr.separator {
   -ms-user-select: none; /* Internet Explorer/Edge */
   -webkit-user-select: none;
   pointer-events: none;
+  margin: 15px 0 15px; /* add some space between images */
 }
 
 .certIcon {
