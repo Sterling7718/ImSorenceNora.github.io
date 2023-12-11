@@ -1232,6 +1232,7 @@ body.light hr.separator {
   }
 
   .main-content > .container {
+    display: grid;
     padding: 0 25px;
   }
 
