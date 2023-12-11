@@ -646,10 +646,10 @@ body.light hr.separator {
 }
 
 /* Certificates */
-
 .largeScreen {
   display: flex;
   flex-direction: row;
+  align-items: center; /* align items vertically */
 }
 
 @media screen and (max-width: 767px) {
@@ -663,13 +663,17 @@ body.light hr.separator {
 }
 
 .imgCerts {
-  width: 250px;
+  width: 350px;
   user-select: none;
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   -webkit-user-select: none;
   pointer-events: none;
   margin: 15px 0 15px; /* add some space between images */
+}
+
+.cert-details {
+  margin-right: 15px; /* add some space between details and image */
 }
 
 .certIcon {
