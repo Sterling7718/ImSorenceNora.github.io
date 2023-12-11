@@ -649,6 +649,7 @@ body.light hr.separator {
 
 /* Certificates */
 .largeScreen {
+  margin: 10px;
   display: flex;
   flex-direction: row;
   align-items: center; /* align items vertically */
@@ -664,6 +665,25 @@ body.light hr.separator {
   }
 }
 
+.glow {
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.glow:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+.glow2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.glow2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
 .imgCerts {
   width: 300px;
   user-select: none;
@@ -671,7 +691,7 @@ body.light hr.separator {
   -ms-user-select: none; /* Internet Explorer/Edge */
   -webkit-user-select: none;
   pointer-events: none;
-  margin: 15px 25px 15px; /* add some space between images */
+  margin: 5px;
 }
 
 .cert-details {
