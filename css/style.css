@@ -703,7 +703,7 @@ body.light hr.separator {
 }
 
 .cert-details {
-  margin-right: 15px; /* add some space between details and image */
+  margin: 0 15px 15px 0; /* add some space between details and image */
 }
 
 .certIcon {
