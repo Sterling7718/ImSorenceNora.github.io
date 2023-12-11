@@ -645,8 +645,25 @@ body.light hr.separator {
   opacity: 0.8;
 }
 
+/* Certificates */
+
+.largeScreen {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .largeScreen {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgCerts {
+    width: 5000px;
+  }
+}
+
 .imgCerts {
-  width: 300px;
+  width: 250px;
   user-select: none;
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
@@ -663,6 +680,8 @@ body.light hr.separator {
   -webkit-user-select: none;
   pointer-events: none;
 }
+
+/* Certificates */
 
 /* Skills */
 
