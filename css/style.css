@@ -665,7 +665,7 @@ body.light hr.separator {
 }
 
 .imgCerts {
-  width: 350px;
+  width: 300px;
   user-select: none;
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
