@@ -169,11 +169,10 @@
 }
 @media only screen and (max-width: 991px) {
   #switcher {
-    top: 40px;
+    top: 5px;
   }
   #showSwitcher {
-    top: 15px;
-    display: none;
+    top: 5px;
   }
 }
 
