@@ -278,7 +278,7 @@ hr.separator {
 
 /* Add your CSS styles here */
 :root {
-  --glow-rgb: 239 42 201;
+  --glow-rgb: 0 180 216;
 }
 
 .glow-point {
